@@ -1,0 +1,68 @@
+/* ----------
+ * Title
+ * ----------
+*/
+
+.author {
+  ul {
+    list-style: none;
+    text-align: right;
+    margin: 10pt 0;
+    padding: 0;
+  }
+}
+
+/* ----------
+ * Cover
+ * ----------
+*/
+
+@page cover {
+  counter-increment: none;
+
+  @top-left {
+    content: '';
+  }
+
+  @top-right {
+    content: '';
+  }
+
+  @bottom-left {
+    content: '';
+  }
+
+  @bottom-right {
+    content: '';
+  }
+
+  @bottom-center {
+    content: '';
+  }
+}
+
+.cover {
+  page: cover;
+  break-after: page;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  .author {
+    ul {
+      text-align: center;
+    }
+  }
+
+  // add ->
+  .subtitle {
+    text-align: center;
+    font-family: 'Hiragino Kaku Gothic ProN', sans-serif;
+    font-size: large;
+    font-weight: bold;
+    margin-top: -300px;
+    margin-bottom: 300px;
+  }
+  // <- add
+}

@@ -1,0 +1,19 @@
+{
+  "@context": [
+    "https://schema.org",
+    "https://www.w3.org/ns/pub-context"
+  ],
+  "type": "Book",
+  "conformsTo": "https://github.com/vivliostyle/vivliostyle-cli",
+  "author": "kai ware",
+  "dateModified": "2022-10-16T03:07:42.913Z",
+  "name": "mybook",
+  "readingOrder": [
+    {
+      "url": "microcomputer.html",
+      "name": "マイコン制御"
+    }
+  ],
+  "resources": [],
+  "links": []
+}

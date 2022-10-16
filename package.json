@@ -1,0 +1,18 @@
+{
+  "name": "mybook",
+  "description": "mybook",
+  "version": "0.0.0",
+  "author": "kai ware",
+  "scripts": {
+    "build": "vivliostyle build",
+    "preview": "vivliostyle preview",
+    "sass": "sass themes/theme-academic-custom/scss:themes/theme-academic-custom --no-source-map --watch"
+  },
+  "dependencies": {
+    "@vivliostyle/cli": "latest",
+    "@vivliostyle/theme-academic": "^0.4.1",
+    "sass": "^1.55.0"
+  },
+  "license": "MIT",
+  "private": true
+}

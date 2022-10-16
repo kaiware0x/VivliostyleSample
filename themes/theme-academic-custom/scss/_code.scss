@@ -1,0 +1,44 @@
+/* ----------
+ * Code
+ * ----------
+*/
+
+@import 'https://cdnjs.cloudflare.com/ajax/libs/prism/1.28.0/themes/prism.min.css'; // add
+
+code,
+kbd,
+pre,
+samp {
+  font-family: $font-monospace;
+}
+
+pre {
+  tab-size: 4;
+  box-decoration-break: clone;
+  text-align: left;
+  white-space: pre-wrap;
+  margin: 0pt; // add
+}
+
+*:not(pre)>code {
+  color: $color-gray;
+  font-weight: bold;
+  padding: 0pt 2pt;
+  border-radius: 1pt;
+  background-color: $color-light-gray;
+}
+
+// add ->
+code {
+  background-color: #f6f6f6;
+  padding: 0 3pt;
+}
+
+figure[class^='language-'] {
+  margin: 0.5em 0;
+}
+
+figcaption {
+  background-color: #e6e6e6;
+}
+// <- add

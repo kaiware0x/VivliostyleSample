@@ -1,0 +1,14 @@
+/* ----------
+ * Math
+ * ----------
+*/
+
+br + .math-inline {
+  display: block;
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.math-inline + br {
+  display: none;
+}
