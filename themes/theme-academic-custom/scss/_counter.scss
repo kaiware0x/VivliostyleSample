@@ -12,7 +12,7 @@
   counter-increment: p;
 
   @bottom-center {
-    content: counter(p);
+    content: counter(page);
   }
 }
 
